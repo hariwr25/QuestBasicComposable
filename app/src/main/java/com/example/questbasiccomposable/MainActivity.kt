@@ -19,29 +19,22 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             QuestBasicComposableTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+               LoginScreen()
                 }
             }
         }
     }
-}
+
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
+fun LoginScreen(modifier: Modifier = Modifier) {
+
 }
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun LoginScreenPreview() {
     QuestBasicComposableTheme {
-        Greeting("Android")
+        LoginScreen()
     }
 }
