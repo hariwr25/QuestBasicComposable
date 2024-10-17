@@ -91,6 +91,14 @@ Column(
         )
     )
 
+    Text(
+        text = "20210140031",
+        style = TextStyle(
+            fontSize = 28.sp,
+            color = Color.Black
+        )
+    )
+
 }
 }
 
