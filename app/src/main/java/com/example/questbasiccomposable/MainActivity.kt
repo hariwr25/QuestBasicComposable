@@ -44,6 +44,9 @@ Column(
             color = Color.Black
         )
     )
+    Text(
+        text = "Ini adalah halaman login",
+    )
 }
 }
 
