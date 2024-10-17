@@ -101,14 +101,14 @@ Column(
         )
     )
 
-    Spacer(modifier = Modifier.height(50.dp))
+    Spacer(modifier = Modifier.height(30.dp))
 
     Image(
         painter = painterResource(id = R.drawable.foto),
         contentDescription = "Profil",
         contentScale = ContentScale.Crop,
         modifier = Modifier
-            .size(300.dp)
+            .size(400.dp)
             .clip(RoundedCornerShape(16.dp))
     )
 }
