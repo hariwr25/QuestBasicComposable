@@ -101,6 +101,8 @@ Column(
         )
     )
 
+    Spacer(modifier = Modifier.height(50.dp))
+
     Image(
         painter = painterResource(id = R.drawable.foto),
         contentDescription = "Profil",
