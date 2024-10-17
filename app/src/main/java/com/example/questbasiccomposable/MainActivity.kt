@@ -69,6 +69,23 @@ Column(
         modifier = Modifier
             .size(250.dp)
     )
+
+    Text(
+        text = "Nama",
+        style = TextStyle(
+            fontSize = 20.sp,
+            color = Color.Black
+        )
+    )
+
+    Text(
+        text = "Hari Wahyu Ramadhan",
+        style = TextStyle(
+            fontSize = 16.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Red
+        )
+    )
 }
 }
 
