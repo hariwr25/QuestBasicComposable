@@ -46,6 +46,9 @@ Column(
     )
     Text(
         text = "Ini adalah halaman login",
+        style = TextStyle(
+
+        )
     )
 }
 }
